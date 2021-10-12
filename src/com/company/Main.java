@@ -1,5 +1,4 @@
 package com.company;
-import java.util.*;
 
 public class Main {
 
@@ -10,13 +9,14 @@ public class Main {
         date.day = 9;
 
         Date date2 = new Date();
-        date2.year = 2007;
+        date2.year = 2008;
         date2.month = 10;
         date2.day = 10;
 
         System.out.println(date.getDaysInMonth());
-        System.out.print(date2.getDaysInMonth());
-
+        System.out.println(date.leapYear());
+        System.out.println(date2.getDaysInMonth());
+        System.out.println(date2.leapYear());
 
 
     }
